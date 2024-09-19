@@ -19,7 +19,7 @@ html{
 }
 .container{
     width:100%;
-    max-width: 1200px;
+    max-width:1200px;
     margin: auto;
 }
 .button{
@@ -32,6 +32,5 @@ html{
 }
 .button:hover{
     background-color: var(--foreground);
-    color: var(--primary-foreground);
-
+    color:var(--primary-foreground);
 }

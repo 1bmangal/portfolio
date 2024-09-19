@@ -2,7 +2,6 @@
     text-align: center;
     padding: 3rem 1rem 0 1rem;
 }
-
 .hero h1{
     font-weight: bold;
     font-size: 2.5rem;
@@ -22,20 +21,25 @@
 }
 .hero-device{
     display: block;
-    max-width: min(100%, 80rem);
+    width: 100%;
+    max-width: 80rem;
     height: auto;
     margin: auto;
 }
-@media (width >600px){
+@media (width>600px){
     .hero h1{
         font-size: 4rem;
     }
-
     .hero h2{
         font-size: 2rem;
     }
-    
     .hero-avatar{
         width: 20rem;
     }
 }
+
+
+
+
+
+
